@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de interfaces - Exercício 2</title>
+
+    <style>
+        .titulo{
+            background-color: rgb(58, 207, 108);
+            margin: 0;
+            font-size: 16pt;
+            width: 100%;
+        }
+
+        .nacionais{
+            width: 10%;
+            background-color: rgb(16, 86, 119);
+        }
+
+        table{
+            width: 90%;
+        }
+
+        td{
+            width: 150px;
+        }
+
+        .veiculos{
+            width: 18%;
+        }
+
+        .servico{
+            width: 20%;
+        }
+
+        .tempo{
+            text-align: center;
+            width: 25%;
+        }
+
+        .preco{
+            width: 15%;
+            text-align: right;
+        }
+
+        table, tr, td{
+            border: 1px solid black;
+        }
+
+        th{
+            background-color: rgba(128, 128, 128, 0.459);
+        }
+    </style>
+
+
+</head>
+<body>
+        <table>
+            <tr>
+            <th class="titulo" colspan="6">
+                Tabela de Serviços Mecânicos
+            </th>
+        </tr>
+
+        <tr>
+            <th class="nacionais" rowspan="6">
+                    Nacionais
+            </th>
+        </tr>
+
+            <tr>
+                <th>Veiculos</th>
+                <th>Serviço</th>
+                <th>Tempo Previsto</th>
+                <th>Valor</th>
+            </tr>
+
+            <tr>
+                <td class="veiculos">Caminhonete S10</td>
+                <td class="servico">Suspensão</td>
+                <td class="tempo">3 horas e 25 minutos</td>
+                <td class="preco">350,00</td>
+            </tr>
+
+            <tr>
+                <td class="veiculos">Caminhonete Ranger</td>
+                <td class="servico">Freio</td>
+                <td class="tempo">3 horas e 45 minutos</td>
+                <td class="preco">200,00</td>
+            </tr>
+
+            <tr>
+                <td class="veiculos">Caminhonete Hilux</td>
+                <td class="servico">Troca de Bateria</td>
+                <td class="tempo">30 minutos</td>
+                <td class="preco">25,00</td>
+            </tr>
+
+            <tr>
+                <td class="veiculos">Caminhonete D10</td>
+                <td class="servico">Alinhamento</td>
+                <td class="tempo">1 hora e 40 minutos</td>
+                <td class="preco">220,00</td>
+            </tr>
+
+        </table>
+</body>
+</html>
